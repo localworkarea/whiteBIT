@@ -177,6 +177,7 @@ body {
   border-radius: 2.5rem;
   border: .125rem solid #2d3752;
   backdrop-filter: blur(64px);
+  -webkit-backdrop-filter: blur(64px);
   background: linear-gradient(180deg,rgba(24,23,51,.8) 0,rgba(35,34,66,.8) 100%)
 }
 .hero__content:not(:last-child) {

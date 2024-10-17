@@ -34,6 +34,7 @@
     border-radius: toRem(40);
     border: toRem(2) solid #2d3752;
     backdrop-filter: blur(64px);
+    -webkit-backdrop-filter: blur(64px);
     background: linear-gradient(180deg, rgba(24, 23, 51, 0.8) 0%, rgba(35, 34, 66, 0.8) 100%);
     @include adaptiveValue("padding-left", 96, 74,2,1920.98,1440.98);
     @include adaptiveValue("padding-left", 74, 20,3,1440.98,480.98);
